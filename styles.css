@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-weight: bold;
+}
+
+body, html{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 55px
+}
+
+h2{
+    font-weight: 800;
+    font-size: 50px;
+}   
+
+h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header{
+    
+    background-color: #9d2053;
+    min-height: 65vh;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.header h1{
+    padding-top: 10px;
+    color: whitesmoke;
+    margin: 0 0 35px;
+}
+
+.header h3{
+    color: whitesmoke;
+    margin: 14px 0 20px;
+    margin-top: 0;
+}
+
+.myphoto img{
+    border-radius: 50%;
+    border: 15px dashed #8d033a;
+}
+
+.myphoto{
+    background-size: contain;
+    position: absolute; top:10%; right: 10%;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+a.cta,button.cta{
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    background: #9d2053;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+a.cta:active,button.cta:active{
+    opacity: .7;
+}
+
+a.cta.alt,button.cta.alt{
+    background-color: #d33174;
+    
+    box-shadow: 0 0 0 10px rgba(65, 0, 48, 0.15);
+}
+
+nav{
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav .logo{
+    display: block;
+    background: url(img/Logo.png) no-repeat 0 0;
+    width: 355px;
+    height: 323px;
+    position: absolute; top: 8%; left: 0;
+    margin-top: -10px;
+    background-size: 100%;
+    margin-left: -30px;
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+nav ul li{
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+}
+
+nav ul li a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: #580728;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 35px 10px;
+    line-height: 30px;
+}
+
+nav ul li a:hover{
+    color: #a35c79;
+}
+
+.moreinfo{
+    text-align: center;
+}
+
+.moreinfo  p{
+    margin: 58px 45px 0;
+    margin-bottom: 20px;
+}
+
+.moreinfo h2{
+    margin: 50px 0 0;
+}
